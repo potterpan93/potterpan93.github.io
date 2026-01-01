@@ -1,32 +1,91 @@
+/* General page styling */
 body {
-    font-family: "Times New Roman", Georgia, serif;
-    max-width: 900px;
-    margin: auto;
-    padding: 40px;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #111;
+    margin: 0;
+    padding: 0;
+    color: #333;
 }
 
 header {
-    margin-bottom: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 28px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0077b5; /* LinkedIn blue hover */
+}
+
+nav {
+    margin-top: 10px;
 }
 
 nav a {
-    margin-right: 20px;
+    margin: 0 10px;
     text-decoration: none;
-    color: #000;
+    color: #333;
 }
 
-nav a:hover {
+.profile {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 40px;
+    max-width: 900px;
+}
+
+.profile img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin-right: 30px;
+    border: 2px solid #ccc;
+}
+
+.intro {
+    max-width: 700px;
+}
+
+.intro a {
+    text-decoration: none;
+    color: #0073e6; /* links */
+}
+
+.intro a:hover {
     text-decoration: underline;
 }
 
-h1, h2, h3 {
-    font-weight: normal;
+.content {
+    display: flex;
+    justify-content: center; /* centers the iframe horizontally */
+    margin-bottom: 40px;     /* optional spacing below */
+}
+
+nav a.active {
+    font-weight: bold;       /* makes text bold */
+    color: #0073e6;          /* optional: change color */
+    border-bottom: 2px solid #0073e6; /* optional: underline */
+    padding-bottom: 2px;     /* small spacing for underline */
 }
 
 footer {
-    margin-top: 60px;
-    font-size: 0.9em;
-    color: #555;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #666;
 }
