@@ -47,6 +47,7 @@ nav a {
     align-items: center;
     margin: 0 auto 40px;
     max-width: 900px;
+    text-align: justify;
 }
 
 .profile img {
@@ -81,6 +82,104 @@ nav a.active {
     color: #0073e6;          /* optional: change color */
     border-bottom: 2px solid #0073e6; /* optional: underline */
     padding-bottom: 2px;     /* small spacing for underline */
+}
+
+.contact-section {
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.contact-intro {
+    margin-bottom: 20px;
+    font-size:16px;
+}
+
+
+.contact-form {
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.contact-form button {
+    padding: 10px 25px;
+    font-size: 14px;
+    border: none;
+    background-color: #0073e6;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #005bb5;
+}
+
+
+.research-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 50px auto;
+    gap: 40px;
+}
+
+.research-text {
+    flex: 2;
+}
+
+.research-text h3 {
+    margin-top: 0;
+}
+
+.research-text p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.research-link {
+    display: block;       /* forces each link onto its own line */
+    margin-top: 8px;      /* optional spacing between links */
+   
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+}
+
+.research-link:hover {
+    text-decoration: underline;
+}
+
+.research-image {
+    flex: 1;
+}
+
+.research-image img {
+    width: 120%;
+    max-width: 250px;
+    border: 1px solid #ccc;
+}
+
+.research-divider {
+    border: none;
+    border-top: 1px solid #e0e0e0; /* light gray line */
+    max-width: 900px;
+    margin: 40px auto;
 }
 
 footer {
