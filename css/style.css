@@ -10,6 +10,15 @@ body {
 header {
     text-align: center;
     margin-bottom: 30px;
+
+    /* Light‑green background */
+    background-color: #ddf0cc;      /* pastel green */
+    /* A little inner space so the text isn’t glued to the edges */
+     padding: 20px 0;
+    /* Optional – a subtle bottom border to separate it from the page */
+    border-bottom: 2px solid #c2e2c2;
+
+
 }
 
 h1 {
